@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="pg1_style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h4><a href="index.html">HOME</a></h4>
+
+
+    
+    <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+      <fieldset>
+        <label for="username"><b>USERNAME:</b></label><br>
+        <input type="text" id="username" name="username" maxlength="30"><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>What is your favorite month of the year?</legend>
+        <label for="jan"><b>January</b></label>
+        <input type="radio"id="jan"name="favmonth" value="1"><br>
+
+        <label for="feb"><b>February</b></label>
+        <input type="radio"id="feb"name="favmonth" value="2"><br>
+
+        <label for="mar"><b>March</b></label>
+        <input type="radio"id="mar"name="favmonth" value="3"><br>
+
+        <label for="apr"><b>April</b></label>
+        <input type="radio"id="apr"name="favmonth" value="4"><br>
+        
+        <label for="may"><b>May</b></label>
+        <input type="radio"id="may"name="favmonth" value="5"><br>
+
+        <label for="jun"><b>June</b></label>
+        <input type="radio"id="jun"name="favmonth" value="6"><br>
+
+        <label for="jul"><b>July</b></label>
+        <input type="radio"id="jul"name="favmonth" value="7"><br>
+
+        <label for="aug"><b>August</b></label>
+        <input type="radio"id="aug"name="favmonth" value="8"><br>
+
+        <label for="sep"><b>September</b></label>
+        <input type="radio"id="sep"name="favmonth" value="9"><br>
+
+        <label for="oct"><b>October</b></label>
+        <input type="radio"id="oct"name="favmonth" value="10"><br>
+
+        <label for="nov"><b>November</b></label>
+        <input type="radio"id="nov"name="favmonth" value="11"><br>
+
+        <label for="dec"><b>December</b></label>
+        <input type="radio"id="dec"name="favmonth" value="12"><br>
+      </fieldset>
+
+      <p>What is your favorite social media website?</p>
+      <select size="4">
+        <option value="1" selected>N/A</option>
+        <option value="2">Twitter</option>
+        <option value="3">Facebook</option>
+        <option value="4">Pinterest</option>
+        <option value="5">Snapchat</option>
+        <option value="6">Instagram</option>
+      </select>
+
+      <br><br>
+
+      <fieldset>
+        <legend>Shipping Address</legend>
+
+        <label for="address1"><b>ADDRESS LINE 1:</b></label><br>
+        <input type="text" id="address1" name="address1"><br>
+
+        <label for="address2"><b>ADDRESS LINE 2:</b></label><br>
+        <input type="text" id="address2" name="address2"><br>
+
+        <label for="city"><b>CITY:</b></label><br>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="state"><b>STATE:</b></label><br>
+        <input type="text" id="state" name="state"><br>
+
+        <label for="zip"><b>ZIP CODE:</b></label><br>
+        <input type="text" id="zip" name="zip"><br>
+
+
+        <fieldset>
+          <legend>Would you like to be mailed a brochure to this address?</legend>
+          <label for="yesbrochure"><b>YES</b></label>
+          <input type="radio"id="yesbrochure"name="brochure" value="1"><br>
+
+          <label for="nobrochure"><b>NO</b></label>
+          <input type="radio"id="nobrochure"name="brochure" value="2"><br>
+        </fieldset>
+      </fieldset>
+
+      <br>
+      <label for="pwd"><b>CONFIRM PASSWORD:</b></label>
+      <input type="password" id="pwd" name="pwd" required>
+
+      <input type="hidden" id="usernameID" name="usernameID" value="1">
+      <br><br>
+      <input type="image" id="submitbutton" src="button_submit.png" alt="Submit" width="150" height="50">
+    </form>
+  </body>
+</html>
